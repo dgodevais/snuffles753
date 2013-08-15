@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DDE129817BD481400C75E10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDE129717BD481400C75E10 /* UIKit.framework */; };
+		9DDE129A17BD481400C75E10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDE129917BD481400C75E10 /* Foundation.framework */; };
+		9DDE129C17BD481400C75E10 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDE129B17BD481400C75E10 /* CoreGraphics.framework */; };
+		9DDE12A217BD481400C75E10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9DDE12A017BD481400C75E10 /* InfoPlist.strings */; };
+		9DDE12A417BD481400C75E10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DDE12A317BD481400C75E10 /* main.m */; };
+		9DDE12A817BD481400C75E10 /* Pickler_v2AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DDE12A717BD481400C75E10 /* Pickler_v2AppDelegate.m */; };
+		9DDE12AA17BD481400C75E10 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DDE12A917BD481400C75E10 /* Default.png */; };
+		9DDE12AC17BD481400C75E10 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DDE12AB17BD481400C75E10 /* Default@2x.png */; };
+		9DDE12AE17BD481400C75E10 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DDE12AD17BD481400C75E10 /* Default-568h@2x.png */; };
+		9DDE12CA17BD48CB00C75E10 /* PicklerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DDE12C917BD48CB00C75E10 /* PicklerTableViewController.m */; };
+		9DDE12DE17BD4D1900C75E10 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDE12DD17BD4D1900C75E10 /* Parse.framework */; };
+		9DDE12E017BD4D6400C75E10 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDE12DF17BD4D6400C75E10 /* AudioToolbox.framework */; };
+		9DDE12E217BD4D6C00C75E10 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDE12E117BD4D6C00C75E10 /* CFNetwork.framework */; };
+		9DDE12E417BD4D7C00C75E10 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDE12E317BD4D7C00C75E10 /* CoreLocation.framework */; };
+		9DDE12E617BD4D8600C75E10 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDE12E517BD4D8600C75E10 /* libz.1.1.3.dylib */; };
+		9DDE12E817BD4D8D00C75E10 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDE12E717BD4D8D00C75E10 /* MobileCoreServices.framework */; };
+		9DDE12EA17BD4D9700C75E10 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDE12E917BD4D9700C75E10 /* QuartzCore.framework */; };
+		9DDE12EC17BD4DA000C75E10 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDE12EB17BD4DA000C75E10 /* Security.framework */; };
+		9DDE12EE17BD4DA900C75E10 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDE12ED17BD4DA900C75E10 /* StoreKit.framework */; };
+		9DDE12F017BD4DB200C75E10 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDE12EF17BD4DB200C75E10 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9DDE129417BD481400C75E10 /* PIckler_v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PIckler_v2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DDE129717BD481400C75E10 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9DDE129917BD481400C75E10 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9DDE129B17BD481400C75E10 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9DDE129F17BD481400C75E10 /* PIckler_v2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PIckler_v2-Info.plist"; sourceTree = "<group>"; };
+		9DDE12A117BD481400C75E10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9DDE12A317BD481400C75E10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DDE12A517BD481400C75E10 /* PIckler_v2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PIckler_v2-Prefix.pch"; sourceTree = "<group>"; };
+		9DDE12A617BD481400C75E10 /* Pickler_v2AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pickler_v2AppDelegate.h; sourceTree = "<group>"; };
+		9DDE12A717BD481400C75E10 /* Pickler_v2AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pickler_v2AppDelegate.m; sourceTree = "<group>"; };
+		9DDE12A917BD481400C75E10 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9DDE12AB17BD481400C75E10 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9DDE12AD17BD481400C75E10 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9DDE12C817BD48CB00C75E10 /* PicklerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PicklerTableViewController.h; sourceTree = "<group>"; };
+		9DDE12C917BD48CB00C75E10 /* PicklerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PicklerTableViewController.m; sourceTree = "<group>"; };
+		9DDE12DD17BD4D1900C75E10 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		9DDE12DF17BD4D6400C75E10 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9DDE12E117BD4D6C00C75E10 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		9DDE12E317BD4D7C00C75E10 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9DDE12E517BD4D8600C75E10 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		9DDE12E717BD4D8D00C75E10 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		9DDE12E917BD4D9700C75E10 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9DDE12EB17BD4DA000C75E10 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9DDE12ED17BD4DA900C75E10 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		9DDE12EF17BD4DB200C75E10 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DDE129117BD481400C75E10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DDE12F017BD4DB200C75E10 /* SystemConfiguration.framework in Frameworks */,
+				9DDE12EE17BD4DA900C75E10 /* StoreKit.framework in Frameworks */,
+				9DDE12EC17BD4DA000C75E10 /* Security.framework in Frameworks */,
+				9DDE12EA17BD4D9700C75E10 /* QuartzCore.framework in Frameworks */,
+				9DDE12E817BD4D8D00C75E10 /* MobileCoreServices.framework in Frameworks */,
+				9DDE12E617BD4D8600C75E10 /* libz.1.1.3.dylib in Frameworks */,
+				9DDE12E417BD4D7C00C75E10 /* CoreLocation.framework in Frameworks */,
+				9DDE129C17BD481400C75E10 /* CoreGraphics.framework in Frameworks */,
+				9DDE12E217BD4D6C00C75E10 /* CFNetwork.framework in Frameworks */,
+				9DDE12E017BD4D6400C75E10 /* AudioToolbox.framework in Frameworks */,
+				9DDE129817BD481400C75E10 /* UIKit.framework in Frameworks */,
+				9DDE129A17BD481400C75E10 /* Foundation.framework in Frameworks */,
+				9DDE12DE17BD4D1900C75E10 /* Parse.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DDE128B17BD481400C75E10 = {
+			isa = PBXGroup;
+			children = (
+				9DDE129D17BD481400C75E10 /* PIckler_v2 */,
+				9DDE129617BD481400C75E10 /* Frameworks */,
+				9DDE129517BD481400C75E10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DDE129517BD481400C75E10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DDE129417BD481400C75E10 /* PIckler_v2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DDE129617BD481400C75E10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DDE12EF17BD4DB200C75E10 /* SystemConfiguration.framework */,
+				9DDE12ED17BD4DA900C75E10 /* StoreKit.framework */,
+				9DDE12EB17BD4DA000C75E10 /* Security.framework */,
+				9DDE12E917BD4D9700C75E10 /* QuartzCore.framework */,
+				9DDE12E717BD4D8D00C75E10 /* MobileCoreServices.framework */,
+				9DDE12E517BD4D8600C75E10 /* libz.1.1.3.dylib */,
+				9DDE12E317BD4D7C00C75E10 /* CoreLocation.framework */,
+				9DDE12E117BD4D6C00C75E10 /* CFNetwork.framework */,
+				9DDE12DF17BD4D6400C75E10 /* AudioToolbox.framework */,
+				9DDE12DD17BD4D1900C75E10 /* Parse.framework */,
+				9DDE129717BD481400C75E10 /* UIKit.framework */,
+				9DDE129917BD481400C75E10 /* Foundation.framework */,
+				9DDE129B17BD481400C75E10 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DDE129D17BD481400C75E10 /* PIckler_v2 */ = {
+			isa = PBXGroup;
+			children = (
+				9DDE12A617BD481400C75E10 /* Pickler_v2AppDelegate.h */,
+				9DDE12A717BD481400C75E10 /* Pickler_v2AppDelegate.m */,
+				9DDE12C817BD48CB00C75E10 /* PicklerTableViewController.h */,
+				9DDE12C917BD48CB00C75E10 /* PicklerTableViewController.m */,
+				9DDE129E17BD481400C75E10 /* Supporting Files */,
+			);
+			path = PIckler_v2;
+			sourceTree = "<group>";
+		};
+		9DDE129E17BD481400C75E10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DDE129F17BD481400C75E10 /* PIckler_v2-Info.plist */,
+				9DDE12A017BD481400C75E10 /* InfoPlist.strings */,
+				9DDE12A317BD481400C75E10 /* main.m */,
+				9DDE12A517BD481400C75E10 /* PIckler_v2-Prefix.pch */,
+				9DDE12A917BD481400C75E10 /* Default.png */,
+				9DDE12AB17BD481400C75E10 /* Default@2x.png */,
+				9DDE12AD17BD481400C75E10 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DDE129317BD481400C75E10 /* PIckler_v2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DDE12B117BD481400C75E10 /* Build configuration list for PBXNativeTarget "PIckler_v2" */;
+			buildPhases = (
+				9DDE129017BD481400C75E10 /* Sources */,
+				9DDE129117BD481400C75E10 /* Frameworks */,
+				9DDE129217BD481400C75E10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PIckler_v2;
+			productName = PIckler_v2;
+			productReference = 9DDE129417BD481400C75E10 /* PIckler_v2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DDE128C17BD481400C75E10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Pickler_v2;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Dustin Godevais";
+			};
+			buildConfigurationList = 9DDE128F17BD481400C75E10 /* Build configuration list for PBXProject "PIckler_v2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9DDE128B17BD481400C75E10;
+			productRefGroup = 9DDE129517BD481400C75E10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DDE129317BD481400C75E10 /* PIckler_v2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DDE129217BD481400C75E10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DDE12A217BD481400C75E10 /* InfoPlist.strings in Resources */,
+				9DDE12AA17BD481400C75E10 /* Default.png in Resources */,
+				9DDE12AC17BD481400C75E10 /* Default@2x.png in Resources */,
+				9DDE12AE17BD481400C75E10 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DDE129017BD481400C75E10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DDE12A417BD481400C75E10 /* main.m in Sources */,
+				9DDE12A817BD481400C75E10 /* Pickler_v2AppDelegate.m in Sources */,
+				9DDE12CA17BD48CB00C75E10 /* PicklerTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9DDE12A017BD481400C75E10 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DDE12A117BD481400C75E10 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DDE12AF17BD481400C75E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9DDE12B017BD481400C75E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DDE12B217BD481400C75E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PIckler_v2/PIckler_v2-Prefix.pch";
+				INFOPLIST_FILE = "PIckler_v2/PIckler_v2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9DDE12B317BD481400C75E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PIckler_v2/PIckler_v2-Prefix.pch";
+				INFOPLIST_FILE = "PIckler_v2/PIckler_v2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DDE128F17BD481400C75E10 /* Build configuration list for PBXProject "PIckler_v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DDE12AF17BD481400C75E10 /* Debug */,
+				9DDE12B017BD481400C75E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DDE12B117BD481400C75E10 /* Build configuration list for PBXNativeTarget "PIckler_v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DDE12B217BD481400C75E10 /* Debug */,
+				9DDE12B317BD481400C75E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DDE128C17BD481400C75E10 /* Project object */;
+}
