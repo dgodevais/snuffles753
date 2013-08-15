@@ -7,6 +7,7 @@
 //
 
 #import "PicklerTableViewController.h"
+#import "PicklerDetailViewController.h"
 #import <Parse/Parse.h>
 
 @implementation PicklerTableViewController
@@ -37,6 +38,7 @@
     return [self init];
 }
 
+
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return possiblePicklers.count;
@@ -53,4 +55,48 @@
     return cell;
 }
 
+-(UIView *)headerView
+{
+    // if we haven't loaded the headerView...
+    if(!headerView){
+        // load the headerview xib file
+        [[NSBundle mainBundle] loadNibNamed:@"HeaderView" owner:self options:nil];
+    }
+    return headerView;
+}
+
+-(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+{
+    return [self headerView];
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+    return [[self headerView]bounds].size.height;
+}
+
+// The add a new Pickler button was pressed
+-(IBAction)addNewPickler:(id)sender
+{
+    
+}
+
+// The user selected a row
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    PicklerDetailViewController *detailController = [[PicklerDetailViewController alloc]init];
+    
+    [[self navigationController] pushViewController:detailController animated:YES];
+    
+}
+
+
+
 @end
+                                                     
+                                                     
+                                                     
+                                                     
+                                                     
+                                                     
+                                                     
