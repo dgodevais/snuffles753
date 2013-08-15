@@ -11,6 +11,11 @@
 @interface PicklerTableViewController : UITableViewController
 {
     NSArray *possiblePicklers;
+    
+    IBOutlet UIView * headerView;
 }
+
+-(UIView *)headerView;
+-(IBAction)addNewPickler:(id)sender;
 
 @end

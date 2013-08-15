@@ -37,6 +37,7 @@
     return [self init];
 }
 
+
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return possiblePicklers.count;
@@ -52,5 +53,32 @@
     
     return cell;
 }
+
+-(UIView *)headerView
+{
+    // if we haven't loaded the headerView...
+    if(!headerView){
+        // load the headerview xib file
+        [[NSBundle mainBundle] loadNibNamed:@"HeaderView" owner:self options:nil];
+    }
+    return headerView;
+}
+
+-(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+{
+    return [self headerView];
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+    return [[self headerView]bounds].size.height;
+}
+
+-(IBAction)addNewPickler:(id)sender
+{
+    
+}
+
+
 
 @end
