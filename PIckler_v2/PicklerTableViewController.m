@@ -7,6 +7,7 @@
 //
 
 #import "PicklerTableViewController.h"
+#import "PicklerDetailViewController.h"
 #import <Parse/Parse.h>
 
 @implementation PicklerTableViewController
@@ -74,11 +75,28 @@
     return [[self headerView]bounds].size.height;
 }
 
+// The add a new Pickler button was pressed
 -(IBAction)addNewPickler:(id)sender
 {
+    
+}
+
+// The user selected a row
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    PicklerDetailViewController *detailController = [[PicklerDetailViewController alloc]init];
+    
+    [[self navigationController] pushViewController:detailController animated:YES];
     
 }
 
 
 
 @end
+                                                     
+                                                     
+                                                     
+                                                     
+                                                     
+                                                     
+                                                     

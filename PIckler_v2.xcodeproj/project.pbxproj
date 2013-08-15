@@ -28,6 +28,8 @@
 		9DDE12EE17BD4DA900C75E10 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDE12ED17BD4DA900C75E10 /* StoreKit.framework */; };
 		9DDE12F017BD4DB200C75E10 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDE12EF17BD4DB200C75E10 /* SystemConfiguration.framework */; };
 		9DDE12F217BD571200C75E10 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DDE12F117BD571200C75E10 /* HeaderView.xib */; };
+		9DDE12F917BD6A2300C75E10 /* PicklerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DDE12F717BD6A2300C75E10 /* PicklerDetailViewController.m */; };
+		9DDE12FA17BD6A2300C75E10 /* PicklerDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DDE12F817BD6A2300C75E10 /* PicklerDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +59,9 @@
 		9DDE12ED17BD4DA900C75E10 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		9DDE12EF17BD4DB200C75E10 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		9DDE12F117BD571200C75E10 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		9DDE12F617BD6A2300C75E10 /* PicklerDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PicklerDetailViewController.h; sourceTree = "<group>"; };
+		9DDE12F717BD6A2300C75E10 /* PicklerDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PicklerDetailViewController.m; sourceTree = "<group>"; };
+		9DDE12F817BD6A2300C75E10 /* PicklerDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PicklerDetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,8 +131,11 @@
 				9DDE12A617BD481400C75E10 /* Pickler_v2AppDelegate.h */,
 				9DDE12A717BD481400C75E10 /* Pickler_v2AppDelegate.m */,
 				9DDE12C817BD48CB00C75E10 /* PicklerTableViewController.h */,
-				9DDE12F117BD571200C75E10 /* HeaderView.xib */,
 				9DDE12C917BD48CB00C75E10 /* PicklerTableViewController.m */,
+				9DDE12F117BD571200C75E10 /* HeaderView.xib */,
+				9DDE12F617BD6A2300C75E10 /* PicklerDetailViewController.h */,
+				9DDE12F717BD6A2300C75E10 /* PicklerDetailViewController.m */,
+				9DDE12F817BD6A2300C75E10 /* PicklerDetailViewController.xib */,
 				9DDE129E17BD481400C75E10 /* Supporting Files */,
 			);
 			path = PIckler_v2;
@@ -204,6 +212,7 @@
 				9DDE12AC17BD481400C75E10 /* Default@2x.png in Resources */,
 				9DDE12AE17BD481400C75E10 /* Default-568h@2x.png in Resources */,
 				9DDE12F217BD571200C75E10 /* HeaderView.xib in Resources */,
+				9DDE12FA17BD6A2300C75E10 /* PicklerDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +226,7 @@
 				9DDE12A417BD481400C75E10 /* main.m in Sources */,
 				9DDE12A817BD481400C75E10 /* Pickler_v2AppDelegate.m in Sources */,
 				9DDE12CA17BD48CB00C75E10 /* PicklerTableViewController.m in Sources */,
+				9DDE12F917BD6A2300C75E10 /* PicklerDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +349,7 @@
 				9DDE12B317BD481400C75E10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -24,8 +24,11 @@
     
     PicklerTableViewController *picklerTable = [[PicklerTableViewController alloc]init];
     
-    [[self window] setRootViewController:picklerTable];
+    // Create the navigation view controller
+    UINavigationController *navController = [[UINavigationController alloc]initWithRootViewController:picklerTable];
     
+    // Nav controller in the view heirarchy
+    [[self window]setRootViewController:navController];
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
