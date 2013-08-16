@@ -51,7 +51,7 @@
     PFObject *picklerObject = [possiblePicklers objectAtIndex:indexPath.row];
     
     [[cell textLabel] setText:[picklerObject objectForKey:@"title"]];
-    
+        
     return cell;
 }
 
@@ -84,8 +84,12 @@
 // The user selected a row
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    PFObject *selectedPickler = [possiblePicklers objectAtIndex:indexPath.row];
+        
     PicklerDetailViewController *detailController = [[PicklerDetailViewController alloc]init];
-    
+
+    [detailController setCurrentPickler:selectedPickler];
+                                                     
     [[self navigationController] pushViewController:detailController animated:YES];
     
 }

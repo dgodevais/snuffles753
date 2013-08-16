@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Parse/Parse.h>
 
 @interface PicklerDetailViewController : UIViewController
+
+-(void)setCurrentPickler: (PFObject *)thePickler;
 
 @end
